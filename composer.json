@@ -1,0 +1,28 @@
+{
+    "name": "ladno/yii2-toolkit",
+    "description": "Collection of useful behaviors, widgets etc.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Fuzz",
+            "email": "comrade.fuzzz@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "require-dev": {
+        "ramsey/uuid": "^3.4"
+    },
+    "suggest": {
+        "ramsey/uuid": "Allows to use UuidBehavior for ActiveRecord models",
+        "lajax/translatemanager": "Translate directory has extension for lajax/translatemanager for work with dynamic data. And TranslatableBehavior work with lajax/translatemanager"
+    },
+    "autoload": {
+        "psr-4": {
+            "ladno\\yii2toolkit\\": ""
+        }
+    }
+}
