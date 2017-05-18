@@ -1,5 +1,5 @@
 {
-    "name": "ladno/yii2-toolkit",
+    "name": "comradefuzz/yii2-toolkit",
     "description": "Collection of useful behaviors, widgets etc.",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ladno\\yii2toolkit\\": ""
+            "comradefuzz\\yii2toolkit\\": ""
         }
     }
 }
